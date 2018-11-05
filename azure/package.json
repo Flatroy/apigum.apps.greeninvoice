@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "request": "^2.81.0",
+    "async-request":"1.2.0",
     "express": "*"
   }
 }
