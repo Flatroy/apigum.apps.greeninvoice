@@ -17,7 +17,7 @@ module.exports = async function(context, req) {
             }
         };
 
-        let res = await request("https://sandbox.d.greeninvoice.co.il/api/v1/account/token",obj);
+        let res = await request("https://www.greeninvoice.co.il/api/v1/account/token",obj);
         
         if (res.statusCode!=200) {
             context.res = { status: res.statusCode, body: res.body };
